@@ -16,7 +16,6 @@ setuptools.setup(
     include_package_data=True,
     python_requires='>=3.6',
     install_requires = [
-        'gym',
         'confac @ git+https://git@github.com/roamlab/confac#egg=confac',
     ]
 )
